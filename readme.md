@@ -5,9 +5,11 @@
 README: Data Analysis and Forecasting with R
 
 Overview
+
 This repository contains R scripts for data analysis and forecasting tasks. The scripts are organized into three main sections: clustering, regression, and time series analysis. Each section addresses different aspects of data manipulation, exploration, modeling, and visualization.
 
 1. Clustering
+   
 Script: clustering.R
 
 Purpose: Perform clustering analysis on a dataset to identify patterns and groupings.
@@ -33,6 +35,7 @@ Perform k-means clustering with k = 6.
 Visualize cluster analysis using pairwise variable plots.
 
 2. Regression
+   
 Script: regression.R
 
 Purpose: Build regression models to understand factors influencing certain outcomes (e.g., turnover) across different countries.
@@ -59,6 +62,7 @@ Train linear regression models to predict performance and turnover.
 Evaluate model performance using Mean Squared Error (MSE).
 
 3. Time Series Analysis
+   
 Script: time_series.R
 
 Purpose: Analyze and forecast time series data related to fish sales.
@@ -87,4 +91,5 @@ Forecast future sales using the selected ARIMA model.
 Visualize the forecasted values.
 
 Conclusion
+
 These scripts provide a comprehensive approach to exploring, modeling, and forecasting data using various statistical techniques in R. Each section is designed to sequentially process and analyze different types of data, making use of appropriate visualization and modeling methods.
